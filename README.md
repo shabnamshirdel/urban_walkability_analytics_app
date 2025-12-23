@@ -1,6 +1,6 @@
 # 🗺️ Urban Walkability Analytics Dashboard
 
-![15 minute accessibility app screenshot](./urban_walkability_analytics.png)
+![15 minute accessibility app screenshot](./urban_walkability_analytics_app.png)
 
 
 This application is a **Geospatial Analytics Dashboard** designed to visualize and analyze street-level walkability metrics. It integrates street segment geometries with diverse urban data—such as greenery, slope, and population density—providing an interactive interface for urban planners and researchers.
@@ -35,7 +35,7 @@ Follow these steps to set up and run the application on your local machine.
 
 ### 1. Clone or Download the Project
 
-First, download the `urban_walkability_analytics.py` script and the required `data` folder into a new project folder. 
+First, download the `urban_walkability_analytics_app.py` script and the required `data` folder into a new project folder. 
 
 Open the terminal and navigate to the newly created project folder.
 
@@ -69,7 +69,7 @@ pip install flask geopandas pandas numpy
 Execute the main script. The application is configured to automatically open your default web browser once the data is cached.
 
 ```bash
-python3 urban_walkability_analytics.py
+python3 urban_walkability_analytics_app.py
 ```
 
 
